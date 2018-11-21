@@ -1,4 +1,4 @@
-package com.atiruz.pdfviewer;
+package com.albo1337.pdfviewer;
 
 import android.app.Activity;
 import android.view.ViewGroup;

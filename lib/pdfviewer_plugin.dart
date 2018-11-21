@@ -7,7 +7,7 @@ import 'package:flutter/services.dart';
 enum PDFViewState { shouldStart, startLoad, finishLoad }
 
 class PDFViewerPlugin {
-  final _channel = const MethodChannel("pdfviewer");
+  final _channel = const MethodChannel("pdf_viewer_2");
   static PDFViewerPlugin _instance;
 
   factory PDFViewerPlugin() => _instance ??= new PDFViewerPlugin._();

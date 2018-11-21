@@ -13,7 +13,7 @@
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     FlutterMethodChannel* channel = [FlutterMethodChannel
-                                     methodChannelWithName:@"pdfviewer"
+                                     methodChannelWithName:@"pdf_viewer_2"
                                      binaryMessenger:[registrar messenger]];
     
     UIViewController *viewController = [UIApplication sharedApplication].delegate.window.rootViewController;

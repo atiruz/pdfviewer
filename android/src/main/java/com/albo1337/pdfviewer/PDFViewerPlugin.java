@@ -1,4 +1,4 @@
-package com.atiruz.pdfviewer;
+package com.albo1337.pdfviewer;
 
 import android.app.Activity;
 import android.content.Context;
@@ -32,7 +32,7 @@ public class PDFViewerPlugin implements MethodCallHandler, PluginRegistry.Activi
      * Plugin registration.
      */
     public static void registerWith(Registrar registrar) {
-        channel = new MethodChannel(registrar.messenger(), "pdfviewer");
+        channel = new MethodChannel(registrar.messenger(), "pdf_viewer_2");
         final PDFViewerPlugin instance = new PDFViewerPlugin(registrar.activity());
         registrar.addActivityResultListener(instance);
         channel.setMethodCallHandler(instance);

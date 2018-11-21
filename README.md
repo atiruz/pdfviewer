@@ -1,6 +1,7 @@
 # pdfviewer
 
 A new flutter plugin project.
+Fork of original [pdfviewer](https://github.com/atiruz/pdfviewer) this works with Dart 2.
 
 ## Getting Started
 

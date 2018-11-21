@@ -1,5 +1,5 @@
-group 'com.atiruz.pdfviewer'
-version '1.0.0'
+group 'com.albo1337.pdf_viewer_2'
+version '1.0.2'
 
 buildscript {
     repositories {

@@ -2,8 +2,8 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'pdfviewer'
-  s.version          = '1.0.0'
+  s.name             = 'pdf_viewer_2'
+  s.version          = '1.0.2'
   s.summary          = 'A flutter plugin to display PDF.'
   s.description      = <<-DESC
 A new flutter plugin project.
